@@ -8,6 +8,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   imports: [RouterOutlet, TopbarComponent,MatButtonModule , MatFormFieldModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
+  standalone: true,
 })
 export class AppComponent {
   title = 'social-wall';
